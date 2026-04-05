@@ -1,20 +1,23 @@
-# coera Design System — CoeraDesignCopy Package
+# coera Design System
 
-This package provides the coera design system as CSS custom properties.
+**MUST READ IN FULL** — Start with overview.md, then follow the reading order.
 
-See the full guidelines at [guidelines/](../../../guidelines/Guidelines.md).
+## Reading Order
 
-## Quick Reference
+1. [Overview](./overview.md) — Product character, visual density, color distribution, critical rules
+2. [Setup](./setup.md) — CSS imports and technical configuration
+3. [Foundations Overview](./foundations/overview.md) → color, typography, spacing, effects tokens
+4. [Components Overview](./components/overview.md) → button, status-badge, card, glass-panel, navigation, footer
+5. [Composition Overview](./composition/overview.md) → sections, layout, GUI patterns
+6. [Brand Voice](./brand/voice.md) — Voice, tone, messaging, headlines
+7. [Wordmark](./brand/wordmark.md) — Logo usage, clearspace, do-nots
 
-- Colors: `var(--brand/black)`, `var(--brand/cream)`, `var(--brand/orange)`, etc.
-- Spacing: `var(--spacing/xs)` through `var(--spacing/5xl)`
-- Radius: `var(--radius/sm)`, `var(--radius/md)`, `var(--radius/lg)`, `var(--radius/pill)`
-- Typography classes: `.desktop-h1` through `.desktop-p`, `.mobile-h1` through `.mobile-p`
+## Design System Packages
 
-## Key Rules
+This project uses CSS custom properties defined in the design system stylesheet.
+See [setup.md](./setup.md) for import instructions.
 
-1. Brand name always lowercase: `coera`
-2. Orange (#FF5E00) for CTAs and accents ONLY — never backgrounds
-3. All touch targets minimum 48×48px
-4. PP Telegraf for headlines/labels, PP Mori for body copy
-5. Regular (400) weight only — hierarchy through size, not weight
+## Token Reference
+
+All design tokens (colors, spacing, radius) are defined as CSS custom properties.
+See [foundations/](./foundations/) for token documentation and decision trees.

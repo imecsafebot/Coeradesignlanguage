@@ -1,7 +1,7 @@
 
-  # Coera - Design (Copy)
+  # Coera BrandAssets
 
-  This is a code bundle for Coera - Design (Copy). The original project is available at https://www.figma.com/design/0ovWqnvcDZnP27fUvMyTAy/Coera---Design--Copy-.
+  This is a code bundle for Coera BrandAssets. The original project is available at https://www.figma.com/design/0ovWqnvcDZnP27fUvMyTAy/Coera-BrandAssets.
 
   ## Running the code
 

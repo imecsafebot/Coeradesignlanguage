@@ -1,122 +1,152 @@
+/*
+ * coera Design System — CSS Custom Properties & Typography Classes
+ *
+ * Token names use hyphen notation (e.g. --brand-black).
+ * Reference as: var(--brand-black), var(--spacing-xl), etc.
+ *
+ * Fonts: PP Telegraf (headlines/labels) + PP Mori (body copy)
+ * Fallbacks: Space Grotesk → PP Telegraf, DM Sans → PP Mori
+ * To use licensed PP fonts, add @font-face declarations in /src/styles/fonts.css.
+ */
+
+/* ─── Color & Spacing Tokens ─────────────────────────────────────────────── */
+
 :root {
-  --brand\/black: #000;
-  --brand\/near-black: #292424;
-  --brand\/cream: #F8F1ED;
-  --brand\/white: #FFF;
-  --brand\/orange: #FF5E00;
-  --brand\/warm-gray: #E0D7D7;
-  --brand\/orange-gold: #FFB200;
-  --semantic\/bg-primary: #000;
-  --semantic\/bg-secondary: #F8F1ED;
-  --semantic\/text-primary: #F8F1ED;
-  --semantic\/text-secondary: #292424;
-  --semantic\/accent: #FF5E00;
-  --semantic\/border: #E0D7D7;
-  --semantic\/success: #22C55E;
-  --semantic\/warning: #FFB200;
-  --semantic\/error: #EF4444;
-  --spacing\/xs: 4;
-  --spacing\/sm: 8;
-  --spacing\/md: 16;
-  --spacing\/lg: 24;
-  --spacing\/xl: 32;
-  --spacing\/2xl: 48;
-  --spacing\/3xl: 64;
-  --spacing\/4xl: 96;
-  --spacing\/5xl: 120;
-  --radius\/sm: 8;
-  --radius\/md: 16;
-  --radius\/lg: 30;
-  --radius\/pill: 10000;
+  /* Brand Colors */
+  --brand-black:       #000000;
+  --brand-near-black:  #292424;
+  --brand-cream:       #F8F1ED;
+  --brand-white:       #FFFFFF;
+  --brand-orange:      #FF5E00;
+  --brand-warm-gray:   #E0D7D7;
+  --brand-orange-gold: #FFB200;
+
+  /* Semantic Colors */
+  --semantic-bg-primary:    #000000;
+  --semantic-bg-secondary:  #F8F1ED;
+  --semantic-text-primary:  #F8F1ED;
+  --semantic-text-secondary:#292424;
+  --semantic-accent:        #FF5E00;
+  --semantic-border:        #E0D7D7;
+  --semantic-success:       #22C55E;
+  --semantic-warning:       #FFB200;
+  --semantic-error:         #EF4444;
+
+  /* Spacing Scale (px) */
+  --spacing-xs:   4px;
+  --spacing-sm:   8px;
+  --spacing-md:   16px;
+  --spacing-lg:   24px;
+  --spacing-xl:   32px;
+  --spacing-2xl:  48px;
+  --spacing-3xl:  64px;
+  --spacing-4xl:  96px;
+  --spacing-5xl:  120px;
+
+  /* Border Radius */
+  --radius-sm:   8px;
+  --radius-md:   16px;
+  --radius-lg:   30px;
+  --radius-pill: 10000px;
 }
 
+/* ─── Typography Classes ─────────────────────────────────────────────────── */
+/*
+ * Use Regular (400) weight only — both families.
+ * Hierarchy is created through size, never weight.
+ */
+
+/* Desktop */
+
 .desktop-h1 {
-  font-family: "PP Telegraf";
-  font-style: "Regular";
+  font-family: "PP Telegraf", "Space Grotesk", sans-serif;
   font-size: 100px;
   font-weight: 400;
+  font-style: normal;
   line-height: 1;
-  letter-spacing: 0px;
+  letter-spacing: 0;
 }
 
 .desktop-h2 {
-  font-family: "PP Telegraf";
-  font-style: "Regular";
+  font-family: "PP Telegraf", "Space Grotesk", sans-serif;
   font-size: 50px;
   font-weight: 400;
-  line-height: 1.2000000476837158;
-  letter-spacing: 0px;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 0;
 }
 
 .desktop-h3 {
-  font-family: "PP Telegraf";
-  font-style: "Regular";
+  font-family: "PP Telegraf", "Space Grotesk", sans-serif;
   font-size: 40px;
   font-weight: 400;
-  line-height: 1.2000000476837158;
-  letter-spacing: 0px;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 0;
 }
 
 .desktop-h4 {
-  font-family: "PP Telegraf";
-  font-style: "Regular";
+  font-family: "PP Telegraf", "Space Grotesk", sans-serif;
   font-size: 30px;
   font-weight: 400;
-  line-height: 1.2000000476837158;
-  letter-spacing: 0px;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 0;
 }
 
 .desktop-h5 {
-  font-family: "PP Telegraf";
-  font-style: "Regular";
+  font-family: "PP Telegraf", "Space Grotesk", sans-serif;
   font-size: 24px;
   font-weight: 400;
-  line-height: 1.2000000476837158;
-  letter-spacing: 0px;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 0;
 }
 
 .desktop-p {
-  font-family: "PP Mori";
-  font-style: "Regular";
+  font-family: "PP Mori", "DM Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.7999999523162842;
-  letter-spacing: 0px;
+  font-style: normal;
+  line-height: 1.8;
+  letter-spacing: 0;
 }
 
+/* Mobile */
+
 .mobile-h1 {
-  font-family: "PP Telegraf";
-  font-style: "Regular";
+  font-family: "PP Telegraf", "Space Grotesk", sans-serif;
   font-size: 50px;
   font-weight: 400;
+  font-style: normal;
   line-height: 1;
-  letter-spacing: 0px;
+  letter-spacing: 0;
 }
 
 .mobile-h2 {
-  font-family: "PP Telegraf";
-  font-style: "Regular";
+  font-family: "PP Telegraf", "Space Grotesk", sans-serif;
   font-size: 30px;
   font-weight: 400;
-  line-height: 1.2000000476837158;
-  letter-spacing: 0px;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
+/* Covers H3, H4, H5 on mobile */
+.mobile-h3-h5 {
+  font-family: "PP Telegraf", "Space Grotesk", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 0;
 }
 
 .mobile-p {
-  font-family: "PP Mori";
-  font-style: "Regular";
+  font-family: "PP Mori", "DM Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.7999999523162842;
-  letter-spacing: 0px;
+  font-style: normal;
+  line-height: 1.8;
+  letter-spacing: 0;
 }
-
-.mobile-h3-h4-h5 {
-  font-family: "PP Telegraf";
-  font-style: "Regular";
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 1.2000000476837158;
-  letter-spacing: 0px;
-}
-

@@ -1,0 +1,27 @@
+/*
+ * Font imports for coera Design System
+ *
+ * PP Telegraf and PP Mori are proprietary typefaces from Production Type (pp.org).
+ * The Google Fonts imports below provide Space Grotesk and DM Sans as functional
+ * fallbacks until the licensed fonts are added via @font-face declarations.
+ *
+ * To add licensed PP fonts:
+ *   @font-face {
+ *     font-family: "PP Telegraf";
+ *     src: url("/fonts/PPTelegraf-Regular.woff2") format("woff2");
+ *     font-weight: 400;
+ *     font-style: normal;
+ *     font-display: swap;
+ *   }
+ *   @font-face {
+ *     font-family: "PP Mori";
+ *     src: url("/fonts/PPMori-Regular.woff2") format("woff2");
+ *     font-weight: 400;
+ *     font-style: normal;
+ *     font-display: swap;
+ *   }
+ */
+
+/* Space Grotesk — fallback for PP Telegraf (geometric, authoritative) */
+/* DM Sans — fallback for PP Mori (neutral, functional) */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400&family=DM+Sans:ital,opsz,wght@0,9..40,400&display=swap');

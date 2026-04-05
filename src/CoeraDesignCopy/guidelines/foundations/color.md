@@ -4,27 +4,27 @@
 
 | Token Name | Hex | Usage |
 |-----------|-----|-------|
-| `brand/black` | #000000 | Primary dark background, wordmark |
-| `brand/near-black` | #292424 | Text on light backgrounds, card fills, dark UI |
-| `brand/cream` | #F8F1ED | Primary text on dark, warm light backgrounds |
-| `brand/white` | #FFFFFF | Cards, surfaces, overlays |
-| `brand/orange` | #FF5E00 | Signal color — CTAs, active indicators ONLY |
-| `brand/warm-gray` | #E0D7D7 | Borders, dividers, secondary text |
-| `brand/orange-gold` | #FFB200 | Gradient end color, warning state |
+| `--brand-black` | #000000 | Primary dark background, wordmark |
+| `--brand-near-black` | #292424 | Text on light backgrounds, card fills, dark UI |
+| `--brand-cream` | #F8F1ED | Primary text on dark, warm light backgrounds |
+| `--brand-white` | #FFFFFF | Cards, surfaces, overlays |
+| `--brand-orange` | #FF5E00 | Signal color — CTAs, active indicators ONLY |
+| `--brand-warm-gray` | #E0D7D7 | Borders, dividers, secondary text |
+| `--brand-orange-gold` | #FFB200 | Gradient end color, warning state |
 
 ## Semantic Colors
 
 | Token Name | Hex | Usage |
 |-----------|-----|-------|
-| `semantic/bg-primary` | #000000 | Default page background |
-| `semantic/bg-secondary` | #F8F1ED | Light section backgrounds |
-| `semantic/text-primary` | #F8F1ED | Primary text on dark backgrounds |
-| `semantic/text-secondary` | #292424 | Primary text on light backgrounds |
-| `semantic/accent` | #FF5E00 | Interactive elements, CTAs |
-| `semantic/border` | #E0D7D7 | Borders and dividers |
-| `semantic/success` | #22C55E | OK/connected states |
-| `semantic/warning` | #FFB200 | Warning/caution states |
-| `semantic/error` | #EF4444 | Error/disconnected states |
+| `--semantic-bg-primary` | #000000 | Default page background |
+| `--semantic-bg-secondary` | #F8F1ED | Light section backgrounds |
+| `--semantic-text-primary` | #F8F1ED | Primary text on dark backgrounds |
+| `--semantic-text-secondary` | #292424 | Primary text on light backgrounds |
+| `--semantic-accent` | #FF5E00 | Interactive elements, CTAs |
+| `--semantic-border` | #E0D7D7 | Borders and dividers |
+| `--semantic-success` | #22C55E | OK/connected states |
+| `--semantic-warning` | #FFB200 | Warning/caution states |
+| `--semantic-error` | #EF4444 | Error/disconnected states |
 
 ## Background Color Selection
 
