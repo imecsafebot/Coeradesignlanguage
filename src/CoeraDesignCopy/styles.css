@@ -1,0 +1,122 @@
+:root {
+  --brand\/black: #000;
+  --brand\/near-black: #292424;
+  --brand\/cream: #F8F1ED;
+  --brand\/white: #FFF;
+  --brand\/orange: #FF5E00;
+  --brand\/warm-gray: #E0D7D7;
+  --brand\/orange-gold: #FFB200;
+  --semantic\/bg-primary: #000;
+  --semantic\/bg-secondary: #F8F1ED;
+  --semantic\/text-primary: #F8F1ED;
+  --semantic\/text-secondary: #292424;
+  --semantic\/accent: #FF5E00;
+  --semantic\/border: #E0D7D7;
+  --semantic\/success: #22C55E;
+  --semantic\/warning: #FFB200;
+  --semantic\/error: #EF4444;
+  --spacing\/xs: 4;
+  --spacing\/sm: 8;
+  --spacing\/md: 16;
+  --spacing\/lg: 24;
+  --spacing\/xl: 32;
+  --spacing\/2xl: 48;
+  --spacing\/3xl: 64;
+  --spacing\/4xl: 96;
+  --spacing\/5xl: 120;
+  --radius\/sm: 8;
+  --radius\/md: 16;
+  --radius\/lg: 30;
+  --radius\/pill: 10000;
+}
+
+.desktop-h1 {
+  font-family: "PP Telegraf";
+  font-style: "Regular";
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0px;
+}
+
+.desktop-h2 {
+  font-family: "PP Telegraf";
+  font-style: "Regular";
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 1.2000000476837158;
+  letter-spacing: 0px;
+}
+
+.desktop-h3 {
+  font-family: "PP Telegraf";
+  font-style: "Regular";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.2000000476837158;
+  letter-spacing: 0px;
+}
+
+.desktop-h4 {
+  font-family: "PP Telegraf";
+  font-style: "Regular";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.2000000476837158;
+  letter-spacing: 0px;
+}
+
+.desktop-h5 {
+  font-family: "PP Telegraf";
+  font-style: "Regular";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.2000000476837158;
+  letter-spacing: 0px;
+}
+
+.desktop-p {
+  font-family: "PP Mori";
+  font-style: "Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7999999523162842;
+  letter-spacing: 0px;
+}
+
+.mobile-h1 {
+  font-family: "PP Telegraf";
+  font-style: "Regular";
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0px;
+}
+
+.mobile-h2 {
+  font-family: "PP Telegraf";
+  font-style: "Regular";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.2000000476837158;
+  letter-spacing: 0px;
+}
+
+.mobile-p {
+  font-family: "PP Mori";
+  font-style: "Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7999999523162842;
+  letter-spacing: 0px;
+}
+
+.mobile-h3-h4-h5 {
+  font-family: "PP Telegraf";
+  font-style: "Regular";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.2000000476837158;
+  letter-spacing: 0px;
+}
+
